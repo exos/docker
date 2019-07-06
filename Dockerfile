@@ -1,6 +1,6 @@
 FROM alpine as builder
 
-ENV release="1.1.4"
+ENV release="v1.1.4"
 
 RUN apk add --no-cache curl jq gnupg ca-certificates \
     && gpg --keyserver keyserver.ubuntu.com --recv-key D26E6ED000654A3E
